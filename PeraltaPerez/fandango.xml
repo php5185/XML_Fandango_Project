@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Theaters>
+    <Theater id="1">
+        <Name>Movies 10</Name>
+        <Address></Address>
+        <TextNumber></TextNumber>
+        <Movies>
+            <Movie movieId="1">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="2">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="3">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+        </Movies>
+    </Theater>
+
+    <Theater id="1">
+        <Name></Name>
+        <Address></Address>
+        <TextNumber></TextNumber>
+        <Movies>
+            <Movie movieId="1">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="2">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="3">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+        </Movies>
+    </Theater>
+
+    <Theater id="1">
+        <Name></Name>
+        <Address></Address>
+        <TextNumber></TextNumber>
+        <Movies>
+            <Movie movieId="1">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="2">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+
+            <Movie movieId="3">
+                <Title></Title>
+                <Photo></Photo>
+                <MPAA></MPAA>
+                <Duration></Duration>
+
+                <Schedules>
+                    <Schedule></Schedule>
+                    <Schedule></Schedule>
+                </Schedules>
+            </Movie>
+        </Movies>
+    </Theater>
+</Theaters>
