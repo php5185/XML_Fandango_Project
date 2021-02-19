@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE Theaters SYSTEM "fandango.dtd">
 <Theaters>
     <Theater id="1">
         <Name>Movies 10</Name>
@@ -8,7 +8,7 @@
         <Movies>
             <Movie movieId="1">
                 <Title>The Spy Who Dumped Me</Title>
-                <Photo></Photo>
+                <Photo>image/TheSpy.jpg</Photo>
                 <MPAA>R</MPAA>
                 <Duration>1 hr 33 min</Duration>
                 <Age></Age>
@@ -18,13 +18,13 @@
                 </Schedules>
 
                 <SpecialNote>
-                    <!-- <Note></Note> -->
+                    <Note></Note>
                 </SpecialNote>
             </Movie>
 
             <Movie movieId="2">
                 <Title>Incredibles 2</Title>
-                <Photo></Photo>
+                <Photo>image/incredible.jpg</Photo>
                 <MPAA>PG</MPAA>
                 <Duration>1 hr 50 min</Duration>
                 <Age></Age>
@@ -37,13 +37,13 @@
                 </Schedules>
 
                 <SpecialNote>
-                    <!-- <Note></Note> -->
+                    <Note></Note>
                 </SpecialNote>
             </Movie>
 
             <Movie movieId="3">
                 <Title>Ocean's 8</Title>
-                <Photo></Photo>
+                <Photo>image/ocean.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>1 hr 50 min</Duration>
                 <Age></Age>
@@ -54,7 +54,7 @@
                 </Schedules>
 
                 <SpecialNote>
-                    <!-- <Note></Note> -->
+                    <Note></Note>
                 </SpecialNote>
             </Movie>
         </Movies>
@@ -70,7 +70,7 @@
         <Movies>
             <Movie movieId="1">
                 <Title>Farenheit 11/9</Title>
-                <Photo></Photo>
+                <Photo>image/farenheit.jpg</Photo>
                 <MPAA>R</MPAA>
                 <Duration>2 hr 6 min</Duration>
                 <Age>New</Age>
@@ -88,7 +88,7 @@
 
             <Movie movieId="2">
                 <Title>Crazy Rich Asians</Title>
-                <Photo></Photo>
+                <Photo>image/crazyAsians.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>2 hr 0 min</Duration>
                 <Age></Age>
@@ -108,7 +108,7 @@
 
             <Movie movieId="3">
                 <Title>Ant-Man and the Wasp (2018)</Title>
-                <Photo></Photo>
+                <Photo>image/antMan.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>1 hr 58 min</Duration>
                 <Age></Age>
@@ -189,5 +189,5 @@
             </Movie>
         </Movies>
     </Theater>
-    
+
 </Theaters>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Theaters (Theater+)>
+<!ELEMENT Theater (Name, Address, TextNumber, Movies)>
+<!ATTLIST Theater id CDATA #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT TextNumber (#PCDATA)>
+<!ELEMENT Movies (Movie+)>
+<!ELEMENT Movie (Title, Photo, MPAA, Duration, Age, Schedules, SpecialNote)>
+<!ATTLIST Movie movieId CDATA #REQUIRED>
+
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Photo (#PCDATA)>
+<!ELEMENT MPAA (#PCDATA)>
+<!ELEMENT Duration (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Schedules (Schedule+)>
+<!ELEMENT Schedule (#PCDATA)>
+<!ELEMENT SpecialNote (Note+)>
+<!ELEMENT Note (#PCDATA)>
