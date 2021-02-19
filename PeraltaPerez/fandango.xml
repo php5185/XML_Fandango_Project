@@ -3,130 +3,191 @@
 <Theaters>
     <Theater id="1">
         <Name>Movies 10</Name>
-        <Address></Address>
-        <TextNumber></TextNumber>
+        <Address>2613 West Henrietta Road, Rochester, NY 14623</Address>
+        <TextNumber>36346</TextNumber>
         <Movies>
             <Movie movieId="1">
-                <Title></Title>
+                <Title>The Spy Who Dumped Me</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>R</MPAA>
+                <Duration>1 hr 33 min</Duration>
+                <Age></Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>7:40p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    <!-- <Note></Note> -->
+                </SpecialNote>
             </Movie>
 
             <Movie movieId="2">
-                <Title></Title>
+                <Title>Incredibles 2</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>PG</MPAA>
+                <Duration>1 hr 50 min</Duration>
+                <Age></Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>12:00p</Schedule>
+                    <Schedule>2:45p</Schedule>
+                    <Schedule>5:30p</Schedule>
+                    <Schedule>8:15p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    <!-- <Note></Note> -->
+                </SpecialNote>
             </Movie>
 
             <Movie movieId="3">
-                <Title></Title>
+                <Title>Ocean's 8</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>PG-13</MPAA>
+                <Duration>1 hr 50 min</Duration>
+                <Age></Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>1:30p</Schedule>
+                    <Schedule>4:10p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    <!-- <Note></Note> -->
+                </SpecialNote>
             </Movie>
         </Movies>
     </Theater>
 
-    <Theater id="1">
+
+
+    <Theater id="2">
+        <Name>Regal Henrietta Stadium 18</Name>
+        <Address>525 Marketplace Drive, Rochester, NY 14623</Address>
+        <TextNumber>36346</TextNumber>
+
+        <Movies>
+            <Movie movieId="1">
+                <Title>Farenheit 11/9</Title>
+                <Photo></Photo>
+                <MPAA>R</MPAA>
+                <Duration>2 hr 6 min</Duration>
+                <Age>New</Age>
+
+                <Schedules>
+                    <Schedule>3:10p</Schedule>
+                    <Schedule>6:20p</Schedule>
+                    <Schedule>9:35p</Schedule>
+                </Schedules>
+
+                <SpecialNote>
+                    <Note></Note>
+                </SpecialNote>
+            </Movie>
+
+            <Movie movieId="2">
+                <Title>Crazy Rich Asians</Title>
+                <Photo></Photo>
+                <MPAA>PG-13</MPAA>
+                <Duration>2 hr 0 min</Duration>
+                <Age></Age>
+
+                <Schedules>
+                    <Schedule>1:00p</Schedule>
+                    <Schedule>4:00p</Schedule>
+                    <Schedule>7:10p</Schedule>
+                    <Schedule>10:05p</Schedule>
+                </Schedules>
+
+                <SpecialNote>
+                    <Note>Closed caption</Note>
+                    <Note>Accessibility device available</Note>
+                </SpecialNote>
+            </Movie>
+
+            <Movie movieId="3">
+                <Title>Ant-Man and the Wasp (2018)</Title>
+                <Photo></Photo>
+                <MPAA>PG-13</MPAA>
+                <Duration>1 hr 58 min</Duration>
+                <Age></Age>
+
+                <Schedules>
+                    <Schedule>6:35p</Schedule>
+                    <Schedule>9:30p</Schedule>
+                </Schedules>
+
+                <SpecialNote>
+                    <Note>Closed caption</Note>
+                    <Note>Accessibility device available</Note>
+                </SpecialNote>
+            </Movie>
+        </Movies>
+    </Theater>
+
+
+
+    <Theater id="3">
         <Name></Name>
         <Address></Address>
         <TextNumber></TextNumber>
         <Movies>
             <Movie movieId="1">
-                <Title></Title>
+                <Title>Life Itself (2018)</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>R</MPAA>
+                <Duration>1 hr 58 min</Duration>
+                <Age>New</Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>11:10a</Schedule>
+                    <Schedule>1:50p</Schedule>
+                    <Schedule>4:30p</Schedule>
+                    <Schedule>7:20p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    <Note></Note>
+                </SpecialNote>
             </Movie>
 
             <Movie movieId="2">
-                <Title></Title>
+                <Title>Crazy Rich Asians</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>PG-13</MPAA>
+                <Duration>2 hr 0 min</Duration>
+                <Age></Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>11:20p</Schedule>
+                    <Schedule>2:00p</Schedule>
+                    <Schedule>4:50p</Schedule>
+                    <Schedule>7:30p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    
+                </SpecialNote>
             </Movie>
 
             <Movie movieId="3">
-                <Title></Title>
+                <Title>The Bookshop</Title>
                 <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
+                <MPAA>PG</MPAA>
+                <Duration>1 hr 53 min</Duration>
+                <Age></Age>
 
                 <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
+                    <Schedule>1:00p</Schedule>
+                    <Schedule>6:45p</Schedule>
                 </Schedules>
+
+                <SpecialNote>
+                    <Note></Note>
+                </SpecialNote>
             </Movie>
         </Movies>
     </Theater>
-
-    <Theater id="1">
-        <Name></Name>
-        <Address></Address>
-        <TextNumber></TextNumber>
-        <Movies>
-            <Movie movieId="1">
-                <Title></Title>
-                <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
-
-                <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
-                </Schedules>
-            </Movie>
-
-            <Movie movieId="2">
-                <Title></Title>
-                <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
-
-                <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
-                </Schedules>
-            </Movie>
-
-            <Movie movieId="3">
-                <Title></Title>
-                <Photo></Photo>
-                <MPAA></MPAA>
-                <Duration></Duration>
-
-                <Schedules>
-                    <Schedule></Schedule>
-                    <Schedule></Schedule>
-                </Schedules>
-            </Movie>
-        </Movies>
-    </Theater>
+    
 </Theaters>
