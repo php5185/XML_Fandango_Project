@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE Theaters SYSTEM "fandango.dtd">
-
+<!-- <!DOCTYPE Theaters SYSTEM "fandango.dtd"> -->
 <?xml-stylesheet href="style.css" type="text/css"?>
-<Theaters>
+<Theaters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="./fandango.xsd">
+    
     <Header>Fandango</Header>
     <Subtitle>Movie Theaters now playing:</Subtitle>
     <Theater id="1">
@@ -15,9 +15,9 @@
                 <MPAA>(R)</MPAA>
                 <Duration>1 hr 33 min</Duration>
                 <Age></Age>
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html xmlns="http://www.w3.org/1999/xhtml">
                     <img src="./images/TheSpy.jpg" />                                                  
-                </html>
+                </html> -->
                 
                 <SpecialNote>
                     <Note></Note>
@@ -39,9 +39,9 @@
                 <Duration>1 hr 50 min</Duration>
                 <Age></Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/incredible.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>
@@ -64,9 +64,9 @@
                 <MPAA>(PG-13)</MPAA>
                 <Duration>1 hr 50 min</Duration>
                 <Age></Age>
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/ocean.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>
@@ -98,9 +98,9 @@
                 <Duration>2 hr 6 min</Duration>
                 <Age>New</Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/farenheit.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>
@@ -123,9 +123,9 @@
                 <Duration>2 hr 0 min</Duration>
                 <Age></Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/crazyAsians.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note> ~Closed caption</Note>
@@ -150,9 +150,9 @@
                 <Duration>1 hr 58 min</Duration>
                 <Age></Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/antMan.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note> ~Closed caption</Note>
@@ -184,9 +184,9 @@
                 <Duration>1 hr 58 min</Duration>
                 <Age>New</Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/lifeItself.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>
@@ -210,9 +210,9 @@
                 <Duration>2 hr 0 min</Duration>
                 <Age></Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/crazyAsians.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>
@@ -236,9 +236,9 @@
                 <Duration>1 hr 53 min</Duration>
                 <Age></Age>
 
-                <html xmlns="http://www.w3.org/1999/xhtml">
+                <!-- <html >
                     <img src="./images/theBookshop.jpg" />                                               
-                </html>
+                </html> -->
 
                 <SpecialNote>
                     <Note></Note>

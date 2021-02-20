@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="Theaters">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Header" type="xs:string"/>
+                <xs:element name="Subtitle" type="xs:string"/>
+                
+                <xs:element name="Theater" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Name" type="xs:string"/>
+                            <xs:element name="Address" type="xs:string"/>
+                            <xs:element name="TextNumber" type="xs:string"/>
+
+                            <xs:element name="Movies" maxOccurs="unbounded">
+                                <xs:complexType>                                    
+                                    <xs:sequence>
+                                        
+                                        <xs:element name="Movie" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Title" type="xs:string"/>
+                                                    <xs:element name="MPAA" type="xs:string"/>
+                                                    <xs:element name="Duration" type="xs:string"/>
+                                                    <xs:element name="Age" type="xs:string"/>
+                                                    <!-- <xs:element name="html" type="xs:string"/> -->
+                                                    
+                                                    <!-- <xs:element name="html">
+                                                        <xs:complexType>                                                            
+                                                            <xs:sequence>
+                                                                <xs:element name="img"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+
+                                                    </xs:element> -->
+
+                                                    
+
+                                                    <xs:element name="SpecialNote">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Note" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>                                                        
+                                                    </xs:element>
+
+                                                    <xs:element name="Schedules">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Schedule" type="xs:string" maxOccurs="unbounded"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>                                                        
+                                                    </xs:element>
+
+                                                </xs:sequence>
+                                                <xs:attribute name="movieId" type="xs:string" use="required" />
+                                            </xs:complexType>
+                                        </xs:element>
+
+                                    </xs:sequence>
+
+                                </xs:complexType>
+
+                            </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:string" use="required" />
+
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
