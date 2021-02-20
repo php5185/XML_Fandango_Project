@@ -6,10 +6,16 @@
 <!ELEMENT Address (#PCDATA)>
 <!ELEMENT TextNumber (#PCDATA)>
 <!ELEMENT Movies (Movie+)>
-<!ELEMENT Movie (Title, Photo, MPAA, Duration, Age, Schedules, SpecialNote)>
+<!ELEMENT Movie (Title, html, Photo, MPAA, Duration, Age, Schedules, SpecialNote)>
 <!ATTLIST Movie movieId CDATA #REQUIRED>
 
 <!ELEMENT Title (#PCDATA)>
+<!ELEMENT html (img)>
+<!ELEMENT img (#PCDATA)>
+<!ATTLIST html xmlns CDATA #REQUIRED>
+<!ATTLIST img src CDATA #REQUIRED>
+
+
 <!ELEMENT Photo (#PCDATA)>
 <!ELEMENT MPAA (#PCDATA)>
 <!ELEMENT Duration (#PCDATA)>

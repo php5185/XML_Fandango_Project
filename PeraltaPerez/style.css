@@ -1,0 +1,17 @@
+Theaters{
+    margin: 10px;
+}
+
+Name{
+    font-size: 25pt;
+    display: block;
+}
+
+Movie{
+    border: 3px solid black;
+    display:block;
+color:#0b2161;
+margin:15pt;
+/* margin-right: 15pt; */
+font-size:15pt;
+}

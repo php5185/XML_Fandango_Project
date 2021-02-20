@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Theaters SYSTEM "fandango.dtd">
+<?xml-stylesheet href="style.css" type="text/css"?>
 <Theaters>
     <Theater id="1">
         <Name>Movies 10</Name>
@@ -8,6 +9,9 @@
         <Movies>
             <Movie movieId="1">
                 <Title>The Spy Who Dumped Me</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/TheSpy.jpg" />                                                  
+                </html>
                 <Photo>image/TheSpy.jpg</Photo>
                 <MPAA>R</MPAA>
                 <Duration>1 hr 33 min</Duration>
@@ -24,6 +28,9 @@
 
             <Movie movieId="2">
                 <Title>Incredibles 2</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/incredible.jpg" />                                               
+                </html>
                 <Photo>image/incredible.jpg</Photo>
                 <MPAA>PG</MPAA>
                 <Duration>1 hr 50 min</Duration>
@@ -43,6 +50,9 @@
 
             <Movie movieId="3">
                 <Title>Ocean's 8</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/ocean.jpg" />                                               
+                </html>
                 <Photo>image/ocean.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>1 hr 50 min</Duration>
@@ -70,6 +80,9 @@
         <Movies>
             <Movie movieId="1">
                 <Title>Farenheit 11/9</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/farenheit.jpg" />                                               
+                </html>
                 <Photo>image/farenheit.jpg</Photo>
                 <MPAA>R</MPAA>
                 <Duration>2 hr 6 min</Duration>
@@ -88,6 +101,9 @@
 
             <Movie movieId="2">
                 <Title>Crazy Rich Asians</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/crazyAsians.jpg" />                                               
+                </html>
                 <Photo>image/crazyAsians.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>2 hr 0 min</Duration>
@@ -108,6 +124,9 @@
 
             <Movie movieId="3">
                 <Title>Ant-Man and the Wasp (2018)</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/antMan.jpg" />                                               
+                </html>
                 <Photo>image/antMan.jpg</Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>1 hr 58 min</Duration>
@@ -135,6 +154,9 @@
         <Movies>
             <Movie movieId="1">
                 <Title>Life Itself (2018)</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/lifeItself.jpg" />                                               
+                </html>
                 <Photo></Photo>
                 <MPAA>R</MPAA>
                 <Duration>1 hr 58 min</Duration>
@@ -154,6 +176,9 @@
 
             <Movie movieId="2">
                 <Title>Crazy Rich Asians</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/crazyAsians.jpg" />                                               
+                </html>
                 <Photo></Photo>
                 <MPAA>PG-13</MPAA>
                 <Duration>2 hr 0 min</Duration>
@@ -167,12 +192,15 @@
                 </Schedules>
 
                 <SpecialNote>
-                    
+                    <Note></Note>
                 </SpecialNote>
             </Movie>
 
             <Movie movieId="3">
                 <Title>The Bookshop</Title>
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <img src="./images/theBookshop.jpg" />                                               
+                </html>
                 <Photo></Photo>
                 <MPAA>PG</MPAA>
                 <Duration>1 hr 53 min</Duration>
